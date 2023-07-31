@@ -1,4 +1,4 @@
-# blazor-scheduler-working-days-hours
+# Blazor Scheduler Working Days and Hours
 A quick-start project that helps you how to Working Days and Hours in Blazor Scheduler Component. 
 
 Documentation: https://blazor.syncfusion.com/documentation/scheduler/working-hours#set-working-days
