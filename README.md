@@ -1,6 +1,6 @@
-# Blazor Scheduler Working Days and Hours
+# How to configure working days and hours in Blazor Scheduler
 
-A comprehensive quick-start project that demonstrates how to configure and implement working days and hours functionality in the Blazor Scheduler component, allowing developers to customize business hours and non-working days for calendar-based scheduling applications.
+A comprehensive quick-start project that demonstrates how to configure and implement working days and hours functionality in the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component, allowing developers to customize business hours and non-working days for calendar-based scheduling applications.
 
 ## Overview
 
