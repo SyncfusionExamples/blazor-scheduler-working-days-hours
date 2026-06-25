@@ -1,10 +1,6 @@
 # How to configure working days and hours in Blazor Scheduler
 
-A comprehensive quick-start project that demonstrates how to configure and implement working days and hours functionality in the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component, allowing developers to customize business hours and non-working days for calendar-based scheduling applications.
-
-## Overview
-
-This project showcases the working days and hours features available in the Syncfusion Blazor Scheduler component. It provides practical examples and implementation guidance for setting up restricted working hours and configuring business days in your Blazor applications.
+This quick-start project demonstrates how to configure and implement working days and hours in the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler), enabling customization of business hours and non-working days. It showcases setting restricted working times and defining business day configurations, providing practical guidance for building efficient and tailored calendar-based scheduling applications.
 
 ## Features
 
@@ -18,14 +14,13 @@ This project showcases the working days and hours features available in the Sync
 
 * Visual Studio 2022
 * .NET 6.0 or later
-* Basic knowledge of Blazor components
 
-## How to Run the Project
+## How to run the project
 
-* Checkout this project to a location in your disk
-* Open the solution file using Visual Studio 2022
-* Restore the NuGet packages by rebuilding the solution
-* Run the project
+1. Checkout this project to your local machine
+2. Open the solution file using Visual Studio 2022
+3. Build the solution to restore the required NuGet packages
+4. Press `F5` to start the application
 
 ## Documentation
 
