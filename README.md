@@ -1,6 +1,6 @@
 # How to configure working days and hours in Blazor Scheduler
 
-This quick-start project demonstrates how to configure and implement working days and hours in the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler), enabling customization of business hours and non-working days. It showcases setting restricted working times and defining business day configurations, providing practical guidance for building efficient and tailored calendar-based scheduling applications.
+This quick-start project demonstrates how to configure and implement working days and hours in the [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler), enabling customization of business hours and non-working days. It showcases setting restricted working times and defining business day configurations, providing practical guidance for building efficient and tailored calendar-based scheduling applications.
 
 ## Features
 
@@ -12,26 +12,54 @@ This quick-start project demonstrates how to configure and implement working day
 
 ## Prerequisites
 
-* Visual Studio 2022
-* .NET 6.0 or later
+- Visual Studio 2026 or Visual Studio Code
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 
 ## How to run the project
 
-1. Checkout this project to your local machine
-2. Open the solution file using Visual Studio 2022
-3. Build the solution to restore the required NuGet packages
-4. Press `F5` to start the application
+**Visual Studio 2026**:
+
+* Checkout this project to a location in your disk.
+* Open the project (`Scheduler_WorkingDays.csproj`) file.
+* Restore the NuGet packages.
+* Run the project.
+
+**Visual Studio Code**:
+
+* Open the repository folder in Visual Studio Code.
+* Open the integrated terminal.
+* Navigate to the repository root.
+
+For server,
+
+```bash
+cd blazor-scheduler-working-days-hours
+cd Scheduler_Server
+dotnet restore
+dotnet run
+```
+
+For WASM,
+
+```bash
+cd blazor-scheduler-working-days-hours
+cd Scheduler_Wasm
+dotnet restore
+dotnet run
+```
+
+Open the URL displayed in the terminal after the application starts.
 
 ## Documentation
 
 * **Blazor Introduction**: https://blazor.syncfusion.com/documentation/introduction
-* **Schedule Component**: https://blazor.syncfusion.com/documentation/schedule/getting-started
-* **Working Hours Guide**: https://blazor.syncfusion.com/documentation/scheduler/working-hours#set-working-days
+* **Schedule Component**: https://help.syncfusion.com/scheduler-sdk/blazor/schedule/getting-started-with-server-app
+* **Working Hours Guide**: https://help.syncfusion.com/scheduler-sdk/blazor/schedule/working-hours#set-working-days
 
 ## Online Examples
 
-* [Working Days Demo](https://blazor.syncfusion.com/demos/scheduler/working-days?theme=fluent)
-* [Working Hours Demo](https://blazor.syncfusion.com/demos/scheduler/working-hours?theme=fluent)
+* [Working Days Demo](https://blazor.syncfusion.com/demos/scheduler/working-days?theme=fluent2)
+* [Working Hours Demo](https://blazor.syncfusion.com/demos/scheduler/working-hours?theme=fluent2)
 
 ## Support
 
